@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Air Quality Dashboard
 
-## Getting Started
+## Description
 
-First, run the development server:
+The **Air Quality Dashboard** is a real-time air quality monitoring system designed to help users track and analyze various air quality parameters, including PM2.5, CO2, temperature, and humidity. Integrated with **ShadCN UI** and built using **Next.js**, this dashboard offers an intuitive and interactive user interface for displaying real-time data and historical trends. The goal of this project is to provide users with an easy way to monitor air quality and make informed decisions for improving their environment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Real-time Monitoring**: Continuously tracks air quality data, including PM2.5, CO2 levels, temperature, and humidity.
+- **ShadCN UI Integration**: Beautifully designed UI with **ShadCN** components to ensure a seamless and responsive experience.
+- **Data Visualization**: Visual representations like graphs and charts make it easier to interpret air quality trends over time.
+- **Alerts & Notifications**: Get notifications when air quality parameters fall outside safe thresholds.
+- **Customizable Dashboard**: The dashboard is flexible and can be adapted to display the specific data relevant to the user’s environment.
+- **Sensor Integration**: Support for integrating various air quality sensors for real-time data collection.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+Ensure you have the following installed:
 
-To learn more about Next.js, take a look at the following resources:
+- **Node.js** (>=14.x)
+- **npm** or **yarn**
+- Sensor hardware for monitoring air quality (e.g., PM2.5 sensor, CO2 sensor, etc.)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Steps to Install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/yourusername/air-quality-dashboard.git
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Navigate into the project directory:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   cd air-quality-dashboard
+
+3. Install the required dependencies:
+
+   ```bash
+   pnpm install
+   # or if you're using yarn:
+   yarn install
+
+4. Set up the air quality sensors (refer to your sensor's manual for setup instructions).
+
+5. Run the development server:
+
+   ```bash
+   pnpm dev
+   # or if you're using yarn:
+   yarn dev
+
+6. Open your browser and go to http://localhost:3000 to view the air quality dashboard.
+
+
+## Usage
+Once the server is running, the Air Quality Dashboard will display air quality data, including:
+
+- PM2.5
+- CO2 Levels
+- Temperature
+- Humidity
+
+The dashboard allows users to visualize these parameters with graphs, historical trends, and also provides notifications for when values exceed predefined safe thresholds.
+
+
+
+
+
+
