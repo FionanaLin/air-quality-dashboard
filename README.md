@@ -1,5 +1,5 @@
 # Air Quality Dashboard
-
+![Air Quality Dashboard Demo](public/air-quality-dashboard-demo.png)
 ## Description
 
 The **Air Quality Dashboard** is a real-time air quality monitoring system designed to help users track and analyze various air quality parameters, including PM2.5, CO2, temperature, and humidity. Integrated with **ShadCN UI** and built using **Next.js**, this dashboard offers an intuitive and interactive user interface for displaying real-time data and historical trends. The goal of this project is to provide users with an easy way to monitor air quality and make informed decisions for improving their environment.
