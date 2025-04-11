@@ -2,16 +2,16 @@
 ![Air Quality Dashboard Demo](public/air-quality-dashboard-demo.png)
 ## Description
 
-The **Air Quality Dashboard** is a real-time air quality monitoring system designed to help users track and analyze various air quality parameters, including PM2.5, CO2, temperature, and humidity. Integrated with **ShadCN UI** and built using **Next.js**, this dashboard offers an intuitive and interactive user interface for displaying real-time data and historical trends. The goal of this project is to provide users with an easy way to monitor air quality and make informed decisions for improving their environment.
+The **Air Quality Dashboard** is a air quality monitoring system designed to help users track and analyze various air quality parameters, including PM2.5, CO2, temperature, and humidity. Integrated with **ShadCN UI** and built using **Next.js**, this dashboard offers an intuitive and interactive user interface for displaying data and historical trends. The goal of this project is to provide users with an easy way to monitor air quality and make informed decisions for improving their environment.
 
 ## Features
 
-- **Real-time Monitoring**: Continuously tracks air quality data, including PM2.5, CO2 levels, temperature, and humidity.
+- **Monitoring**: Continuously tracks air quality data, including PM2.5, CO2 levels, temperature, and humidity.
 - **ShadCN UI Integration**: Beautifully designed UI with **ShadCN** components to ensure a seamless and responsive experience.
 - **Data Visualization**: Visual representations like graphs and charts make it easier to interpret air quality trends over time.
 - **Alerts & Notifications**: Get notifications when air quality parameters fall outside safe thresholds.
 - **Customizable Dashboard**: The dashboard is flexible and can be adapted to display the specific data relevant to the user’s environment.
-- **Sensor Integration**: Support for integrating various air quality sensors for real-time data collection.
+- **Sensor Integration**: Support for integrating various air quality sensors for data collection.
 
 ## Installation
 
